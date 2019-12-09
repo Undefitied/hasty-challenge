@@ -35,7 +35,9 @@ const LayoutWrapper = ({ children, location, setCurrentPageRedux }: Props) => {
 				<HeaderContainer />
 			</Header>
 			<Content>
-				{children}
+				<div style={{ background: '#fff', padding: 24, minHeight: 280 }}>
+					{children}
+				</div>
 			</Content>
 			<Footer>
 				Sergey Kuzovkov, undefitied@gmail.com
